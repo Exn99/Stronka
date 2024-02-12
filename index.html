@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona główna</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="pgup">
+        <a href="#top" class="logo-link">
+            <img src="images/logo.png" alt="Logo" class="logo">
+        </a>
+        <nav class="horizontal-menu">
+            <div class="hamburger-menu">
+                <div class="hamburger-icon"></div>
+            </div>
+            <ul class="menu-links">
+                <li><a href="#about">O mnie</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#offer">Oferta</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <section id="studio">
+            <div class="image-container">
+                <img src="images/programowanie.png" class="fstimg">
+                <img src="images/logo.png" class="secimg">
+                <h1>Exn Studio</h1>
+            </div>
+        </section> 
+        <section class="trust-me">
+            <h3 class="trust-me_title">Zaufaj młodemu pokoleniu</h3>
+            <div class="trust-me_cards">
+                <div class="trust-me_card ">
+                    <i class="trust-me_card-img " ><img src="images/wykres.png" width= "65px"  ></i>
+                    <p class="trust-me_card-text">Pomagasz w rozwoju</p>
+                </div>
+                <div class="trust-me_card">
+                    <i class="trust-me_card-img "><img src="images/ludzik.png" width= "50px"></i>
+                    <p class="trust-me_card-text">Masz gwarancje nowoczesnych technik</p>
+                </div>
+                <div class="trust-me_card ">
+                    <i class="trust-me_card-img "><img src="images/wand.png" width= "60px"></i>
+                    <p class="trust-me_card-text">Wspierasz budowanie porftolio</p>
+                </div>    
+        </div>
+        </section>   
+        <section id="about">
+            <h2>O mnie</h2>
+            <div class="about">
+                <img src="images/logo.png">
+                <p>Mam na imię Patryk. Jestem bardzo początkującym Front-end Developerem. 
+                   Aktualnie, cały czas się uczę, w jaki sposób tworzyć strony www i aplikacje webowe.
+                   W wolnym czasie staram udoskonalać i rozwijać swoje umiętnośći, 
+                   w nagrywaniu i montowaniu filmów oraz grafice komputerowej. 
+                   Moim marzeniem jest tworzyć strony internetowe i aplikacje.</p>
+            </div>
+        </section>   
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="prt">
+                <img src="images/krzyzyk.png" >
+                <p>Obecnie nie posiadam żadnych projektów, które mogę umieścić w moim portfolio.</p>
+            </div>
+        </section>
+        <section id="offer">
+            <h2>Oferta</h2>
+            <div class="offer">
+                <div class="offer-item" class="animate">
+                    <img src="images/strony.png" class="offer-item-icon">
+                    <h3 class="offer-item-title">Projektowanie stron internetowych</h3>
+                    <p class="offer-item-description">Projektowanie mockopów, stworzenie oraz prowadzenie stron interntowych od strony Front-endu.</p>
+                </div>
+                <div class="offer-item" class="animate">
+                    <img src="images/grafika-komputerowa.jpg" class="offer-item-icon">
+                    <h3 class="offer-item-title">Grafika komputerowa</h3>
+                    <p class="offer-item-description">Oferujemy szeroki zakres usług projektowania graficznego, obejmujący tworzenie logo, identyfikację wizualną, grafiki reklamowe, materiały promocyjne oraz wiele więcej.</p>
+                </div>
+                <div class="offer-item" class="animate">
+                    <img src="images/socialmedia.jpg" class="offer-item-icon">
+                    <h3 class="offer-item-title">Prowadzenie social mediów</h3>
+                    <p class="offer-item-description">Stworzenie oraz zarządzanie profilami na mediach społecznościowych firmy lub osoby prywatnej.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <div class="contact-container">
+                <div class="contact-row">
+                    <div class="contact-item">
+                        <a href="mailto:exnstudio@gmail.com"></a>
+                        <img src="images/mail.png" alt="Mail icon" width="50px">
+                        <div class="contact-text">
+                            <p>exnstudio@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://www.instagram.com/exnusiek/"></a>
+                        <img src="images/instagram.png" alt="Mail icon" width="30px">
+                        <div class="contact-text">
+                            <p>exnusiek</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-row">
+                    <div class="contact-item">
+                        <img src="images/discord.png" alt="Mail icon" width="30px">
+                        <div class="contact-text">
+                            <p>exn99</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://www.youtube.com/channel/UClMgWF6p-2fh99ZEhRUhqJA"></a>
+                        <img src="images/youtube.png" alt="Mail icon" width="30px">
+                        <div class="contact-text">
+                            <p>exn777</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="post" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Imię:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Wiadomość:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Wyślij</button>
+                </form>
+            </div>
+            <button id="openFormBtn">Otwórz formularz</button>
+        </section>            
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="left-column">
+                <img src="images/logo.png" alt="Exn Studio Logo" class="logo">
+                <h3 class="studio-name">Exn Studio</h3>
+            </div>
+            <div class="right-column">
+                <nav>
+                    <ul>
+                        <li><a href="#about">O mnie</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#offer">Oferta</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer> 
+    <script src="script.js"></script>
+</body>
+</html>
