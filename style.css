@@ -42,13 +42,14 @@ body{
 }
 
 .menu-links li {
-    margin-right: 20px;
+    margin-right: 110px;
 }
 
 .menu-links a {
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 23px;
+    font-weight: 100;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow: hidden;
     position: relative;
